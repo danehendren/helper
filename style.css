@@ -1,0 +1,128 @@
+body html {
+  overflow-x: hidden;
+}
+li { list-style: none }
+
+button {
+  /* Typography */
+  font-size: 20px;
+  font-family: Helvetica sans-serif;
+  background-color: #CDFFE9;
+  /* Display */
+  border-radius: 4px;
+}
+
+.site-wrap {
+  /* Positioning */
+  overflow-x: hidden;
+  position: relative;
+}
+
+#modal {
+  /* Positioning */
+  position: fixed;
+  /* Typography */
+  background: white;
+  /* Display */
+  top: 0;
+  right:-400px;
+  padding-left: 20px;
+  z-index: 100;
+  width: 350px;
+  height: 100%;
+  border-left: 2px #CFCDFF solid ;
+  border-top: 2px #CFCDFF solid;
+}
+
+#slidecontent { float:left }
+
+
+#logo {
+  /* Display */
+  width: 170px;
+  height: 60px;
+}
+.logo-line {
+  /* Typography */
+  border-bottom: solid black 2px;
+  border-style: ridge;
+  opacity: 0.1;
+  /* Display */
+  width: 100%;
+}
+#main-content {
+  /* Positioning */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.heading{
+  /* Positioning */
+  display: flex;
+  justify-content: center;
+  /* Typography */
+  background-color: #ff6650;
+}
+.nav-modal {
+  /* Visuals */
+  opacity: 0.2;
+  pointer-events: none;
+  /* Transitions */
+  transition: opacity 900ms cubic-bezier(.25, .2, .25, 0.9);
+}
+.stand-in-image {
+  /* Display */
+  width: 240px;
+  height: 140px;
+  /* border: 3px #CFCDFF dotted; */
+}
+.helper-header {
+  /* Position */
+  display: flex;
+  justify-content: center;
+  /* Display */
+  /* border-spacing: 10px; */
+  /* Typography */
+  font-weight: 600;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+.helper-content {
+  /* Display */
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  /* Typography */
+  font-size: 18px;
+  line-height: 3;
+  font-weight: 400;
+}
+.helper-content-list {
+  /* Typography */
+  font-weight: 600;
+  font-family: Helvetica;
+  line-height: 35px;
+  /* Display */
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+.modal-exit-button {
+  /* Positioning */
+  position: absolute;
+  top: -2px; left: -30px;
+  /* Typography */
+  background: #CFCDFF;
+  /* Display */
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.modal-exit-button:before {
+  /* Display */
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  content: "\2716";
+}
