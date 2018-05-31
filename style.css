@@ -72,7 +72,8 @@ button {
 }
 .stand-in-image {
   /* Display */
-  width: 240px;
+  margin-left: 20%;
+  width: 140px;
   height: 140px;
   /* border: 3px #CFCDFF dotted; */
 }
