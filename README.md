@@ -1,7 +1,7 @@
-# Helper
+# The Helper
 
-<h1>Description</h1>
-<p>A helper for exit intent in hopes of helping the people on back to shop a bit more</p>
+<h3>Description</h3>
+<p>A helper in exit intent in hopes of helpfully rangling the customer on back to shop some more!</p>
 
 <h2>Screenshot</h2>
 <img src="/assets/images/helper-ss.png" />
