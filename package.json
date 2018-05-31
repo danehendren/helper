@@ -1,7 +1,7 @@
 {
   "name": "helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h3>Description</h3> <p>A helper in exit intent in hopes of helpfully rangling the customer on back to shop some more!</p>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,13 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
     "gulp-concat": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danehendren/helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danehendren/helper/issues"
+  },
+  "homepage": "https://github.com/danehendren/helper#readme"
 }
